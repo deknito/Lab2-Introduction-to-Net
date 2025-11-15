@@ -28,6 +28,7 @@ while (true)
     students.Add(name);
 }
 Console.WriteLine("\n List of students");
+//devolver toda la lista de estudiantes
 foreach (var student in students )
 {
     Console.WriteLine($"-{student}");

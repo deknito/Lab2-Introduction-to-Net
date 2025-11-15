@@ -1,0 +1,1708 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.gitignore">
+        <Link>UserManagement (1)\UserManagement\.gitignore</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\config">
+        <Link>UserManagement (1)\UserManagement\.git\config</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\description">
+        <Link>UserManagement (1)\UserManagement\.git\description</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\HEAD">
+        <Link>UserManagement (1)\UserManagement\.git\HEAD</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\applypatch-msg.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\applypatch-msg.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\commit-msg.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\commit-msg.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\fsmonitor-watchman.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\fsmonitor-watchman.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\post-update.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\post-update.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\pre-applypatch.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\pre-applypatch.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\pre-commit.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\pre-commit.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\pre-merge-commit.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\pre-merge-commit.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\pre-push.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\pre-push.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\pre-rebase.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\pre-rebase.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\pre-receive.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\pre-receive.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\prepare-commit-msg.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\prepare-commit-msg.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\push-to-checkout.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\push-to-checkout.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\sendemail-validate.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\sendemail-validate.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\hooks\update.sample">
+        <Link>UserManagement (1)\UserManagement\.git\hooks\update.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\index">
+        <Link>UserManagement (1)\UserManagement\.git\index</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\info\exclude">
+        <Link>UserManagement (1)\UserManagement\.git\info\exclude</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\0c\208ae9181e5e5717e47ec1bd59368aebc6066e">
+        <Link>UserManagement (1)\UserManagement\.git\objects\0c\208ae9181e5e5717e47ec1bd59368aebc6066e</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\0d\b8d55976bb7249c4097399b9c6c404583e805f">
+        <Link>UserManagement (1)\UserManagement\.git\objects\0d\b8d55976bb7249c4097399b9c6c404583e805f</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\10\f68b8c8b4f796baf8ddeee7551b6a52b9437cc">
+        <Link>UserManagement (1)\UserManagement\.git\objects\10\f68b8c8b4f796baf8ddeee7551b6a52b9437cc</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\12\d2c94f2af53e833f6244a8bb5b16239149eb6c">
+        <Link>UserManagement (1)\UserManagement\.git\objects\12\d2c94f2af53e833f6244a8bb5b16239149eb6c</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\1f\d6e470df4d9d8c5f2f941f9d0876982f675681">
+        <Link>UserManagement (1)\UserManagement\.git\objects\1f\d6e470df4d9d8c5f2f941f9d0876982f675681</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\4b\95bcab561df2567412a6232d78effa948ea05d">
+        <Link>UserManagement (1)\UserManagement\.git\objects\4b\95bcab561df2567412a6232d78effa948ea05d</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\67\944d73cce738e562de354cedde2b8dbc7dff2e">
+        <Link>UserManagement (1)\UserManagement\.git\objects\67\944d73cce738e562de354cedde2b8dbc7dff2e</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\68\f1f65b62ccef673d9e2f7684e72293343f995e">
+        <Link>UserManagement (1)\UserManagement\.git\objects\68\f1f65b62ccef673d9e2f7684e72293343f995e</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\8b\3e41ff24d66e4670c8708bdc1d1c36f1dddc1e">
+        <Link>UserManagement (1)\UserManagement\.git\objects\8b\3e41ff24d66e4670c8708bdc1d1c36f1dddc1e</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\ad\d57be707d1a627fd960286263733b8f2df2dcb">
+        <Link>UserManagement (1)\UserManagement\.git\objects\ad\d57be707d1a627fd960286263733b8f2df2dcb</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\b4\0a27a53789c8665e6fe99f115afd686d8bf680">
+        <Link>UserManagement (1)\UserManagement\.git\objects\b4\0a27a53789c8665e6fe99f115afd686d8bf680</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\b8\b61fc634663a25b63fbcf24166e197269e6dfa">
+        <Link>UserManagement (1)\UserManagement\.git\objects\b8\b61fc634663a25b63fbcf24166e197269e6dfa</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\d0\e342660d26b385f93e94591dcf05cb786f8a59">
+        <Link>UserManagement (1)\UserManagement\.git\objects\d0\e342660d26b385f93e94591dcf05cb786f8a59</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\e2\6b3fc6bdbbe5aa504c183d40a6041dc3daf50a">
+        <Link>UserManagement (1)\UserManagement\.git\objects\e2\6b3fc6bdbbe5aa504c183d40a6041dc3daf50a</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\ee\9d65d633f6e9b1eedca4d299dd2ee26cd3884c">
+        <Link>UserManagement (1)\UserManagement\.git\objects\ee\9d65d633f6e9b1eedca4d299dd2ee26cd3884c</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\ef\b3a1a7ceb8f7eb9ddbcc128c10d413885d9d2e">
+        <Link>UserManagement (1)\UserManagement\.git\objects\ef\b3a1a7ceb8f7eb9ddbcc128c10d413885d9d2e</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\f5\a50e27a78b516500134a14ca82fbbea1d82297">
+        <Link>UserManagement (1)\UserManagement\.git\objects\f5\a50e27a78b516500134a14ca82fbbea1d82297</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\.gitignore">
+        <Link>UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\.gitignore</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\copilot.data.migration.agent.xml">
+        <Link>UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\copilot.data.migration.agent.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\copilot.data.migration.ask.xml">
+        <Link>UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\copilot.data.migration.ask.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\copilot.data.migration.ask2agent.xml">
+        <Link>UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\copilot.data.migration.ask2agent.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\copilot.data.migration.edit.xml">
+        <Link>UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\copilot.data.migration.edit.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\indexLayout.xml">
+        <Link>UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\indexLayout.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\projectSettingsUpdater.xml">
+        <Link>UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\projectSettingsUpdater.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\vcs.xml">
+        <Link>UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\vcs.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\workspace.xml">
+        <Link>UserManagement (1)\UserManagement\.idea\.idea.UserManagement\.idea\workspace.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement.sln">
+        <Link>UserManagement (1)\UserManagement\UserManagement.sln</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\appsettings.Development.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\appsettings.Development.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\appsettings.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\appsettings.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\appsettings.Development.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\appsettings.Development.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\appsettings.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\appsettings.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\FluentValidation.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\FluentValidation.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Humanizer.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Humanizer.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Build.Locator.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Build.Locator.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Options.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Options.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.OpenApi.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Microsoft.OpenApi.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Mono.TextTemplating.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\Mono.TextTemplating.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\SQLitePCLRaw.core.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\SQLitePCLRaw.core.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.CodeDom.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.CodeDom.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.Composition.AttributedModel.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.Composition.AttributedModel.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.Composition.Convention.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.Composition.Convention.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.Composition.Hosting.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.Composition.Hosting.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.Composition.Runtime.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.Composition.Runtime.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.Composition.TypedParts.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\System.Composition.TypedParts.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement.deps.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement.deps.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement.pdb">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement.pdb</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement.runtimeconfig.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement.runtimeconfig.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement.staticwebassets.endpoints.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\UserManagement.staticwebassets.endpoints.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\apphost">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\apphost</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\refint\UserManagement.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\refint\UserManagement.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\ref\UserManagement.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\ref\UserManagement.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\rjsmrazor.dswa.cache.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\rjsmrazor.dswa.cache.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\rpswa.dswa.cache.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\rpswa.dswa.cache.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\staticwebassets.build.endpoints.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\staticwebassets.build.endpoints.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\staticwebassets.build.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\staticwebassets.build.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\staticwebassets.build.json.cache">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\staticwebassets.build.json.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserMana.582A6DE7.Up2Date">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserMana.582A6DE7.Up2Date</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.AssemblyInfoInputs.cache">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.AssemblyInfoInputs.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.assets.cache">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.assets.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.csproj.AssemblyReference.cache">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.csproj.AssemblyReference.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.csproj.CoreCompileInputs.cache">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.csproj.CoreCompileInputs.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.csproj.FileListAbsolute.txt">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.csproj.FileListAbsolute.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.dll">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.GeneratedMSBuildEditorConfig.editorconfig">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.GeneratedMSBuildEditorConfig.editorconfig</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.genruntimeconfig.cache">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.genruntimeconfig.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.MvcApplicationPartsAssemblyInfo.cache">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.MvcApplicationPartsAssemblyInfo.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.pdb">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.pdb</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\project.assets.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\project.assets.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\project.nuget.cache">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\project.nuget.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\project.packagespec.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\project.packagespec.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\rider.project.model.nuget.info">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\rider.project.model.nuget.info</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\rider.project.restore.info">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\rider.project.restore.info</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\UserManagement.csproj.nuget.dgspec.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\UserManagement.csproj.nuget.dgspec.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\UserManagement.csproj.nuget.g.props">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\UserManagement.csproj.nuget.g.props</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\UserManagement.csproj.nuget.g.targets">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\UserManagement.csproj.nuget.g.targets</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Properties\launchSettings.json">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Properties\launchSettings.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\UserManagement.csproj">
+        <Link>UserManagement (1)\UserManagement\UserManagement\UserManagement.csproj</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\usermanagement.db">
+        <Link>UserManagement (1)\UserManagement\UserManagement\usermanagement.db</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\UserManagement.http">
+        <Link>UserManagement (1)\UserManagement\UserManagement\UserManagement.http</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\._UserManagement">
+        <Link>UserManagement (1)\__MACOSX\._UserManagement</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\._config">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\._config</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\._description">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\._description</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\._HEAD">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\._HEAD</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\._hooks">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\._hooks</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\._index">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\._index</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\._info">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\._info</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\._objects">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\._objects</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\._refs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\._refs</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._applypatch-msg.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._applypatch-msg.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._commit-msg.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._commit-msg.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._fsmonitor-watchman.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._fsmonitor-watchman.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._post-update.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._post-update.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-applypatch.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-applypatch.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-commit.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-commit.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-merge-commit.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-merge-commit.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-push.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-push.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-rebase.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-rebase.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-receive.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._pre-receive.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._prepare-commit-msg.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._prepare-commit-msg.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._push-to-checkout.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._push-to-checkout.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._sendemail-validate.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._sendemail-validate.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._update.sample">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\hooks\._update.sample</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\info\._exclude">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\info\._exclude</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._0c">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._0c</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._0d">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._0d</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._10">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._10</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._12">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._12</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._1f">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._1f</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._4b">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._4b</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._67">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._67</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._68">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._68</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._8b">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._8b</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._ad">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._ad</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._b4">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._b4</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._b8">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._b8</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._d0">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._d0</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._e2">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._e2</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._ee">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._ee</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._ef">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._ef</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._f5">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._f5</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._info">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._info</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\._pack">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\._pack</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\0c\._208ae9181e5e5717e47ec1bd59368aebc6066e">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\0c\._208ae9181e5e5717e47ec1bd59368aebc6066e</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\0d\._b8d55976bb7249c4097399b9c6c404583e805f">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\0d\._b8d55976bb7249c4097399b9c6c404583e805f</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\10\._f68b8c8b4f796baf8ddeee7551b6a52b9437cc">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\10\._f68b8c8b4f796baf8ddeee7551b6a52b9437cc</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\12\._d2c94f2af53e833f6244a8bb5b16239149eb6c">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\12\._d2c94f2af53e833f6244a8bb5b16239149eb6c</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\1f\._d6e470df4d9d8c5f2f941f9d0876982f675681">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\1f\._d6e470df4d9d8c5f2f941f9d0876982f675681</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\4b\._95bcab561df2567412a6232d78effa948ea05d">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\4b\._95bcab561df2567412a6232d78effa948ea05d</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\67\._944d73cce738e562de354cedde2b8dbc7dff2e">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\67\._944d73cce738e562de354cedde2b8dbc7dff2e</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\68\._f1f65b62ccef673d9e2f7684e72293343f995e">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\68\._f1f65b62ccef673d9e2f7684e72293343f995e</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\8b\._3e41ff24d66e4670c8708bdc1d1c36f1dddc1e">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\8b\._3e41ff24d66e4670c8708bdc1d1c36f1dddc1e</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\ad\._d57be707d1a627fd960286263733b8f2df2dcb">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\ad\._d57be707d1a627fd960286263733b8f2df2dcb</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\b4\._0a27a53789c8665e6fe99f115afd686d8bf680">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\b4\._0a27a53789c8665e6fe99f115afd686d8bf680</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\b8\._b61fc634663a25b63fbcf24166e197269e6dfa">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\b8\._b61fc634663a25b63fbcf24166e197269e6dfa</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\d0\._e342660d26b385f93e94591dcf05cb786f8a59">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\d0\._e342660d26b385f93e94591dcf05cb786f8a59</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\e2\._6b3fc6bdbbe5aa504c183d40a6041dc3daf50a">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\e2\._6b3fc6bdbbe5aa504c183d40a6041dc3daf50a</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\ee\._9d65d633f6e9b1eedca4d299dd2ee26cd3884c">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\ee\._9d65d633f6e9b1eedca4d299dd2ee26cd3884c</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\ef\._b3a1a7ceb8f7eb9ddbcc128c10d413885d9d2e">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\ef\._b3a1a7ceb8f7eb9ddbcc128c10d413885d9d2e</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\objects\f5\._a50e27a78b516500134a14ca82fbbea1d82297">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\objects\f5\._a50e27a78b516500134a14ca82fbbea1d82297</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\refs\._heads">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\refs\._heads</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.git\refs\._tags">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.git\refs\._tags</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._.gitignore">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._.gitignore</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._copilot.data.migration.agent.xml">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._copilot.data.migration.agent.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._copilot.data.migration.ask.xml">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._copilot.data.migration.ask.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._copilot.data.migration.ask2agent.xml">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._copilot.data.migration.ask2agent.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._copilot.data.migration.edit.xml">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._copilot.data.migration.edit.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._indexLayout.xml">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._indexLayout.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._projectSettingsUpdater.xml">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._projectSettingsUpdater.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._vcs.xml">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._vcs.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._workspace.xml">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\.idea\._workspace.xml</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\._.idea">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\.idea.UserManagement\._.idea</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\.idea\._.idea.UserManagement">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\.idea\._.idea.UserManagement</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\._.git">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\._.git</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\._.gitignore">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\._.gitignore</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\._.idea">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\._.idea</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\._UserManagement">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\._UserManagement</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\._UserManagement.sln">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\._UserManagement.sln</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._appsettings.Development.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._appsettings.Development.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._appsettings.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._appsettings.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._bin">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._bin</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._Features">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._Features</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._obj">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._obj</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._Persistence">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._Persistence</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._Properties">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._Properties</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._UserManagement.csproj">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._UserManagement.csproj</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._usermanagement.db">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._usermanagement.db</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._UserManagement.http">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._UserManagement.http</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._Validators">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._Validators</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\._Debug">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\._Debug</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\._net9.0">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\._net9.0</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._appsettings.Development.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._appsettings.Development.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._appsettings.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._appsettings.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._cs</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._de">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._de</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._es">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._es</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._FluentValidation.DependencyInjectionExtensions.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._FluentValidation.DependencyInjectionExtensions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._FluentValidation.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._FluentValidation.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._fr">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._fr</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Humanizer.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Humanizer.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._it">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._it</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._ja">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._ja</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._ko">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._ko</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.AspNetCore.OpenApi.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.AspNetCore.OpenApi.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Bcl.AsyncInterfaces.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Bcl.AsyncInterfaces.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Build.Locator.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Build.Locator.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.CSharp.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.CSharp.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.CSharp.Workspaces.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.Workspaces.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.Workspaces.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.Workspaces.MSBuild.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.CodeAnalysis.Workspaces.MSBuild.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Data.Sqlite.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Data.Sqlite.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.EntityFrameworkCore.Abstractions.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.EntityFrameworkCore.Abstractions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.EntityFrameworkCore.Design.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.EntityFrameworkCore.Design.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.EntityFrameworkCore.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.EntityFrameworkCore.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.EntityFrameworkCore.Relational.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.EntityFrameworkCore.Relational.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.EntityFrameworkCore.Sqlite.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.EntityFrameworkCore.Sqlite.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Caching.Abstractions.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Caching.Abstractions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Caching.Memory.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Caching.Memory.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Configuration.Abstractions.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Configuration.Abstractions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.DependencyInjection.Abstractions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.DependencyInjection.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.DependencyInjection.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.DependencyModel.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.DependencyModel.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Logging.Abstractions.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Logging.Abstractions.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Logging.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Logging.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Options.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Options.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Primitives.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.Extensions.Primitives.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.OpenApi.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Microsoft.OpenApi.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Mono.TextTemplating.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._Mono.TextTemplating.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._pl">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._pl</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._pt-BR">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._pt-BR</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._ru">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._ru</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._runtimes">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._runtimes</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._SQLitePCLRaw.batteries_v2.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._SQLitePCLRaw.batteries_v2.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._SQLitePCLRaw.core.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._SQLitePCLRaw.core.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._SQLitePCLRaw.provider.e_sqlite3.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._SQLitePCLRaw.provider.e_sqlite3.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.CodeDom.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.CodeDom.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.Composition.AttributedModel.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.Composition.AttributedModel.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.Composition.Convention.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.Composition.Convention.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.Composition.Hosting.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.Composition.Hosting.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.Composition.Runtime.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.Composition.Runtime.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.Composition.TypedParts.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._System.Composition.TypedParts.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._tr">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._tr</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement.deps.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement.deps.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement.pdb">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement.pdb</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement.runtimeconfig.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement.runtimeconfig.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement.staticwebassets.endpoints.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._UserManagement.staticwebassets.endpoints.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._zh-Hans">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._zh-Hans</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._zh-Hant">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\._zh-Hant</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\cs\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\cs\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\cs\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\cs\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\cs\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\cs\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\cs\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\cs\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\cs\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\cs\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\de\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\de\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\de\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\de\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\de\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\de\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\de\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\de\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\de\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\de\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\es\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\es\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\es\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\es\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\es\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\es\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\es\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\es\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\es\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\es\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\fr\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\fr\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\fr\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\fr\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\fr\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\fr\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\fr\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\fr\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\fr\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\fr\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\it\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\it\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\it\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\it\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\it\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\it\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\it\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\it\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\it\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\it\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ja\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ja\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ja\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ja\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ja\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ja\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ja\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ja\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ja\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ja\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ko\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ko\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ko\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ko\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ko\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ko\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ko\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ko\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ko\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ko\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pl\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pl\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pl\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pl\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pl\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pl\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pl\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pl\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pl\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pl\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\pt-BR\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._browser-wasm">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._browser-wasm</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-arm">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-arm</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-arm64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-arm64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-armel">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-armel</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-mips64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-mips64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-musl-arm">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-musl-arm</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-musl-arm64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-musl-arm64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-musl-s390x">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-musl-s390x</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-musl-x64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-musl-x64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-ppc64le">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-ppc64le</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-s390x">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-s390x</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-x64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-x64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-x86">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._linux-x86</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._maccatalyst-arm64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._maccatalyst-arm64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._maccatalyst-x64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._maccatalyst-x64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._osx-arm64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._osx-arm64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._osx-x64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._osx-x64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._win-arm">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._win-arm</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._win-arm64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._win-arm64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._win-x64">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._win-x64</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._win-x86">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\._win-x86</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\browser-wasm\._nativeassets">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\browser-wasm\._nativeassets</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\._net9.0">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\._net9.0</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\._e_sqlite3.a">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\._e_sqlite3.a</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm64\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm64\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-armel\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-armel\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-armel\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-armel\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-arm\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-mips64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-mips64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-mips64\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-mips64\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-arm\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-s390x\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-s390x\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-x64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-x64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-x64\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-musl-x64\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-ppc64le\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-ppc64le\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-ppc64le\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-ppc64le\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-s390x\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-s390x\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-s390x\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-s390x\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x64\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x64\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x86\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x86\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x86\native\._libe_sqlite3.so">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\linux-x86\native\._libe_sqlite3.so</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-arm64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-arm64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\._libe_sqlite3.dylib">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\._libe_sqlite3.dylib</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-x64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-x64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\._libe_sqlite3.dylib">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\._libe_sqlite3.dylib</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-arm64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-arm64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-arm64\native\._libe_sqlite3.dylib">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-arm64\native\._libe_sqlite3.dylib</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-x64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-x64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-x64\native\._libe_sqlite3.dylib">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\osx-x64\native\._libe_sqlite3.dylib</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm64\native\._e_sqlite3.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm64\native\._e_sqlite3.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm\native\._e_sqlite3.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-arm\native\._e_sqlite3.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x64\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x64\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x64\native\._e_sqlite3.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x64\native\._e_sqlite3.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x86\._native">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x86\._native</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x86\native\._e_sqlite3.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\runtimes\win-x86\native\._e_sqlite3.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ru\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ru\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ru\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ru\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ru\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ru\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ru\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ru\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ru\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\ru\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\tr\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\tr\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\tr\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\tr\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\tr\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\tr\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\tr\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\tr\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\tr\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\tr\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hans\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\._Microsoft.CodeAnalysis.CSharp.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\._Microsoft.CodeAnalysis.CSharp.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\._Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\._Microsoft.CodeAnalysis.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\._Microsoft.CodeAnalysis.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\._Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\._Microsoft.CodeAnalysis.Workspaces.resources.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\bin\Debug\net9.0\zh-Hant\._Microsoft.CodeAnalysis.Workspaces.resources.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\._Users">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\._Users</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._Debug">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._Debug</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._project.assets.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._project.assets.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._project.nuget.cache">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._project.nuget.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._project.packagespec.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._project.packagespec.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._rider.project.model.nuget.info">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._rider.project.model.nuget.info</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._rider.project.restore.info">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._rider.project.restore.info</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._UserManagement.csproj.nuget.dgspec.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._UserManagement.csproj.nuget.dgspec.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._UserManagement.csproj.nuget.g.props">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._UserManagement.csproj.nuget.g.props</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._UserManagement.csproj.nuget.g.targets">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\._UserManagement.csproj.nuget.g.targets</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\._net9.0">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\._net9.0</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._apphost">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._apphost</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._ref">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._ref</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._refint">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._refint</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._rjsmcshtml.dswa.cache.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._rjsmcshtml.dswa.cache.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._rjsmrazor.dswa.cache.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._rjsmrazor.dswa.cache.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._rpswa.dswa.cache.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._rpswa.dswa.cache.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._staticwebassets">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._staticwebassets</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._staticwebassets.build.endpoints.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._staticwebassets.build.endpoints.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._staticwebassets.build.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._staticwebassets.build.json</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._staticwebassets.build.json.cache">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._staticwebassets.build.json.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserMana.582A6DE7.Up2Date">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserMana.582A6DE7.Up2Date</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.AssemblyInfoInputs.cache">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.AssemblyInfoInputs.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.assets.cache">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.assets.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.csproj.AssemblyReference.cache">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.csproj.AssemblyReference.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.csproj.CoreCompileInputs.cache">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.csproj.CoreCompileInputs.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.csproj.FileListAbsolute.txt">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.csproj.FileListAbsolute.txt</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.GeneratedMSBuildEditorConfig.editorconfig">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.GeneratedMSBuildEditorConfig.editorconfig</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.genruntimeconfig.cache">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.genruntimeconfig.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.MvcApplicationPartsAssemblyInfo.cache">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.MvcApplicationPartsAssemblyInfo.cache</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.pdb">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.pdb</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\refint\._UserManagement.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\refint\._UserManagement.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\ref\._UserManagement.dll">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\ref\._UserManagement.dll</Link>
+      </Content>
+      <Content Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Properties\._launchSettings.json">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Properties\._launchSettings.json</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\info\">
+        <Link>UserManagement (1)\UserManagement\.git\objects\info</Link>
+      </Folder>
+      <Folder Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\objects\pack\">
+        <Link>UserManagement (1)\UserManagement\.git\objects\pack</Link>
+      </Folder>
+      <Folder Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\refs\heads\">
+        <Link>UserManagement (1)\UserManagement\.git\refs\heads</Link>
+      </Folder>
+      <Folder Include="..\..\..\Downloads\UserManagement (1)\UserManagement\.git\refs\tags\">
+        <Link>UserManagement (1)\UserManagement\.git\refs\tags</Link>
+      </Folder>
+      <Folder Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\staticwebassets\">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\staticwebassets</Link>
+      </Folder>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Features\Users\CreateUserHandler.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Features\Users\CreateUserHandler.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Features\Users\CreateUserRequest.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Features\Users\CreateUserRequest.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Features\Users\DeleteUserHandler.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Features\Users\DeleteUserHandler.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Features\Users\DeleteuserRequest.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Features\Users\DeleteuserRequest.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Features\Users\GetAllUserRequest.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Features\Users\GetAllUserRequest.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Features\Users\GetAllUsersHandler.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Features\Users\GetAllUsersHandler.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Features\Users\User.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Features\Users\User.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.AssemblyInfo.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.AssemblyInfo.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.GlobalUsings.g.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.GlobalUsings.g.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.MvcApplicationPartsAssemblyInfo.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\obj\Debug\net9.0\UserManagement.MvcApplicationPartsAssemblyInfo.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Persistence\UserManagementContext.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Persistence\UserManagementContext.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Program.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Program.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\UserManagement\UserManagement\Validators\CreateUserValidator.cs">
+        <Link>UserManagement (1)\UserManagement\UserManagement\Validators\CreateUserValidator.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\._Program.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\._Program.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._CreateUserHandler.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._CreateUserHandler.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._CreateUserRequest.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._CreateUserRequest.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._DeleteUserHandler.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._DeleteUserHandler.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._DeleteuserRequest.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._DeleteuserRequest.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._GetAllUserRequest.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._GetAllUserRequest.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._GetAllUsersHandler.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._GetAllUsersHandler.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._User.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Features\Users\._User.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._.NETCoreApp,Version=v9.0.AssemblyAttributes.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._.NETCoreApp,Version=v9.0.AssemblyAttributes.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.AssemblyInfo.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.AssemblyInfo.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.GlobalUsings.g.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.GlobalUsings.g.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.MvcApplicationPartsAssemblyInfo.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\obj\Debug\net9.0\._UserManagement.MvcApplicationPartsAssemblyInfo.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Persistence\._UserManagementContext.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Persistence\._UserManagementContext.cs</Link>
+      </Compile>
+      <Compile Include="..\..\..\Downloads\UserManagement (1)\__MACOSX\UserManagement\UserManagement\Validators\._CreateUserValidator.cs">
+        <Link>UserManagement (1)\__MACOSX\UserManagement\UserManagement\Validators\._CreateUserValidator.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+</Project>
